@@ -1,0 +1,76 @@
+from __future__ import unicode_literals
+
+from django.db import models
+
+# Create your models here.
+
+
+class Company(models.Model):
+    name = models.CharField(max_length=100, default="")
+    symbol = models.CharField(max_length=100, default="")
+    entityId = models.IntegerField(null=True)
+    exchange = models.CharField(max_length=100, default="")
+    sicCode = models.IntegerField(null=True)
+    sicDescription = models.CharField(max_length=100, default="")
+    createTime = models.DateTimeField(auto_now_add=True)
+    lastModifiedTime = models.DateTimeField(auto_now=True)
+    pass
+
+
+class SecForm(models.Model):
+    company = models.ForeignKey(Company)
+    year = models.IntegerField(null=True)
+    quarter = models.IntegerField(null=True)
+    usdConversionRate = models.FloatField(null=True)
+    periodEndDate = models.DateField(null=True)
+    currencyCode = models.CharField(max_length=100, default="")
+    period = models.CharField(max_length=100, default="")
+    changeInCurrentAssets = models.BigIntegerField(null=True)
+    changeInCurrentLiabilities = models.BigIntegerField(null=True)
+    changeInInventories = models.BigIntegerField(null=True)
+    dividendsPaid = models.BigIntegerField(null=True)
+    capitalExpenditures = models.BigIntegerField(null=True)
+    cashFromFinancingActivities = models.BigIntegerField(null=True)
+    cashFromInvestingActivities = models.BigIntegerField(null=True)
+    cashFromOperatingActivities = models.BigIntegerField(null=True)
+    cfDepreciationAmortization = models.BigIntegerField(null=True)
+    changeInAccountsReceivable = models.BigIntegerField(null=True)
+    investmentChangesnet = models.BigIntegerField(null=True)
+    netChangeInCash = models.BigIntegerField(null=True)
+    totalAdjustments = models.BigIntegerField(null=True)
+    equityEarnings = models.BigIntegerField(null=True)
+    grossProfit = models.BigIntegerField(null=True)
+    interestExpense = models.BigIntegerField(null=True)
+    netIncome = models.BigIntegerField(null=True)
+    netIncomeApplicableToCommon = models.BigIntegerField(null=True)
+    researchDevelopmentExpense = models.BigIntegerField(null=True)
+    totalRevenue = models.BigIntegerField(null=True)
+    sellingGeneralAdministrativeExpenses = models.BigIntegerField(null=True)
+    commonStock = models.BigIntegerField(null=True)
+    cashAndCashEquivalents = models.BigIntegerField(null=True)
+    cashEquivalentsAndShortTermInvestments = models.BigIntegerField(null=True)
+    intangibleAssets = models.BigIntegerField(null=True)
+    goodwill = models.BigIntegerField(null=True)
+    inventoriesNet = models.BigIntegerField(null=True)
+    minorityInterest = models.BigIntegerField(null=True)
+    otherAssets = models.BigIntegerField(null=True)
+    otherLiabilities = models.BigIntegerField(null=True)
+    otherEquity = models.BigIntegerField(null=True)
+    otherCurrentLiabilities = models.BigIntegerField(null=True)
+    otherCurrentAssets = models.BigIntegerField(null=True)
+    preferredStock = models.BigIntegerField(null=True)
+    propertyPlantEquipmentnet = models.BigIntegerField(null=True)
+    retainedEarnings = models.BigIntegerField(null=True)
+    totalAssets = models.BigIntegerField(null=True)
+    totalCurrentAssets = models.BigIntegerField(null=True)
+    totalCurrentLiabilities = models.BigIntegerField(null=True)
+    totalLiabilities = models.BigIntegerField(null=True)
+    totalLongTermDebt = models.BigIntegerField(null=True)
+    totalReceivablesNet = models.BigIntegerField(null=True)
+    totalShortTermDebt = models.BigIntegerField(null=True)
+    totalStockholdersEquity = models.BigIntegerField(null=True)
+    treasuryStock = models.BigIntegerField(null=True)
+
+    createTime = models.DateTimeField(auto_now_add=True)
+    last_modified_time = models.DateTimeField(auto_now=True)
+    pass
