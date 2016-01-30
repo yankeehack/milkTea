@@ -19,5 +19,6 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^sec/', include('valueCrawler.urls')),
+    url(r'^sec/', include('tweetSentiment.urls')),
     url(r'^admin/', admin.site.urls),
 ]

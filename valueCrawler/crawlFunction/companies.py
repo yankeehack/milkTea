@@ -106,11 +106,13 @@ def getAllCompanies():
 
 def jsonDataWrapper(field):
     if field:
-        if isinstance(field, str):
+        if isinstance(field, str) or isinstance(field, unicode):
             try:
                 return int(field)
             except Exception:
                 return field
+        else:
+            return field
     else:
         return None
 

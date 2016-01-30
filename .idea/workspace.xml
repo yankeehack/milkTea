@@ -1,18 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f1e7847-a8f7-451f-aef7-440a633b0082" name="Default" comment="" />
+    <list default="true" id="4f1e7847-a8f7-451f-aef7-440a633b0082" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tweetSentiment/tweetApi/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tweetSentiment/views/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tweetSentiment/worker/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/forms.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tweetSentiment/views/publicAuthViews.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tweetSentiment/worker/rds.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tweetSentiment/tweetApi/tweetGet.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tweetSentiment/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/db.sqlite3" afterPath="$PROJECT_DIR$/db/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/valueCrawler/crawlFunction/companies.py" afterPath="$PROJECT_DIR$/valueCrawler/crawlFunction/companies.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/debug.log" afterPath="$PROJECT_DIR$/debug.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/valueAnalysis/settings.py" afterPath="$PROJECT_DIR$/valueAnalysis/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/valueAnalysis/urls.py" afterPath="$PROJECT_DIR$/valueAnalysis/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/valueCrawler/urls.py" afterPath="$PROJECT_DIR$/valueCrawler/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/valueAnalysis.iml" afterPath="$PROJECT_DIR$/.idea/valueAnalysis.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/valueCrawler/views.py" afterPath="$PROJECT_DIR$/valueCrawler/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="valueAnalysis.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/urls.py" changelist="4f1e7847-a8f7-451f-aef7-440a633b0082" time="1451375714968" ignored="false" />
-    <file path="/settings.py" changelist="4f1e7847-a8f7-451f-aef7-440a633b0082" time="1451373992066" ignored="false" />
-    <file path="/views.py" changelist="4f1e7847-a8f7-451f-aef7-440a633b0082" time="1451375721855" ignored="false" />
+    <file path="/urls.py" changelist="4f1e7847-a8f7-451f-aef7-440a633b0082" time="1454115566108" ignored="false" />
+    <file path="/settings.py" changelist="4f1e7847-a8f7-451f-aef7-440a633b0082" time="1454185260022" ignored="false" />
+    <file path="/views.py" changelist="4f1e7847-a8f7-451f-aef7-440a633b0082" time="1454140150554" ignored="false" />
     <file path="/secTest.html" changelist="4f1e7847-a8f7-451f-aef7-440a633b0082" time="1451371667991" ignored="false" />
     <file path="/crawlFunction.py" changelist="4f1e7847-a8f7-451f-aef7-440a633b0082" time="1451200821976" ignored="false" />
-    <file path="/companies.py" changelist="4f1e7847-a8f7-451f-aef7-440a633b0082" time="1451199553380" ignored="false" />
+    <file path="/companies.py" changelist="4f1e7847-a8f7-451f-aef7-440a633b0082" time="1452410551918" ignored="false" />
     <file path="/util.py" changelist="4f1e7847-a8f7-451f-aef7-440a633b0082" time="1450964509150" ignored="false" />
-    <file path="/models.py" changelist="4f1e7847-a8f7-451f-aef7-440a633b0082" time="1451195681661" ignored="false" />
-    <file path="$PROJECT_DIR$/valueCrawler/migrations/0001_initial.py" changelist="4f1e7847-a8f7-451f-aef7-440a633b0082" time="1451374508168" ignored="false" />
+    <file path="/models.py" changelist="4f1e7847-a8f7-451f-aef7-440a633b0082" time="1454183192893" ignored="false" />
+    <file path="/Dummy.txt" changelist="4f1e7847-a8f7-451f-aef7-440a633b0082" time="1454114992100" ignored="false" />
+    <file path="/forms.html" changelist="4f1e7847-a8f7-451f-aef7-440a633b0082" time="1452407432884" ignored="false" />
+    <file path="/redis.py" changelist="4f1e7847-a8f7-451f-aef7-440a633b0082" time="1454118815312" ignored="false" />
+    <file path="/rds.py" changelist="4f1e7847-a8f7-451f-aef7-440a633b0082" time="1454139208720" ignored="false" />
+    <file path="$PROJECT_DIR$/../testPython/test.py" changelist="4f1e7847-a8f7-451f-aef7-440a633b0082" time="1454139654061" ignored="false" />
+    <file path="/test.py" changelist="4f1e7847-a8f7-451f-aef7-440a633b0082" time="1454139648890" ignored="false" />
+    <file path="/tweetGet.py" changelist="4f1e7847-a8f7-451f-aef7-440a633b0082" time="1454192071706" ignored="false" />
+    <file path="/a.dummy" changelist="4f1e7847-a8f7-451f-aef7-440a633b0082" time="1454185355540" ignored="false" />
+    <file path="/publicAuthViews.py" changelist="4f1e7847-a8f7-451f-aef7-440a633b0082" time="1454192750070" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,33 +57,29 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/valueAnalysis/settings.py">
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tweetSentiment/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="45" selection-start="2384" selection-end="2384" vertical-scroll-proportion="-5.1153846">
+            <state line="8" column="1" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/valueAnalysis/urls.py">
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tweetSentiment/views/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="34" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#702#743#0" expanded="true" />
-              </folding>
+            <state line="7" column="34" selection-start="185" selection-end="185" vertical-scroll-proportion="0.19589552">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/valueCrawler/urls.py">
+      <file leaf-file-name="base.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///Library/Python/2.7/site-packages/django/views/generic/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="1" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
+            <state line="156" column="8" selection-start="5584" selection-end="5584" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -63,38 +87,56 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/valueCrawler/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="87" selection-start="869" selection-end="869" vertical-scroll-proportion="0.0">
+            <state line="4" column="44" selection-start="138" selection-end="153" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="companies.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="shortcuts.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///Library/Python/2.7/site-packages/django/shortcuts.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="25" selection-start="415" selection-end="427" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="response.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///Library/Python/2.7/site-packages/django/http/response.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="492" column="27" selection-start="16880" selection-end="16901" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tweetGet.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tweetSentiment/tweetApi/tweetGet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="28" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#21#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="publicAuthViews.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tweetSentiment/views/publicAuthViews.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="44" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#21#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="companies.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/valueCrawler/crawlFunction/companies.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="46" selection-start="1044" selection-end="1044" vertical-scroll-proportion="-1.1210654">
-              <folding>
-                <element signature="e#21#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/valueCrawler/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="47" selection-start="844" selection-end="844" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="secTest.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/secTest.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="28" selection-start="154" selection-end="154" vertical-scroll-proportion="-3.4285715">
+            <state line="17" column="77" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -107,29 +149,42 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="/Library/Python/2.7/site-packages/django/views/generic/base.py" />
-        <option value="$PROJECT_DIR$/valueAnalysis/urls.py" />
         <option value="$PROJECT_DIR$/valueCrawler/crawlFunction/crawlFunction.py" />
         <option value="$PROJECT_DIR$/valueCrawler/crawlFunction/util.py" />
         <option value="$PROJECT_DIR$/templates/secTest.html" />
-        <option value="$PROJECT_DIR$/valueCrawler/crawlFunction/companies.py" />
-        <option value="$PROJECT_DIR$/valueAnalysis/settings.py" />
         <option value="$PROJECT_DIR$/valueCrawler/models.py" />
+        <option value="$PROJECT_DIR$/templates/forms.html" />
         <option value="$PROJECT_DIR$/valueCrawler/urls.py" />
+        <option value="$PROJECT_DIR$/valueCrawler/crawlFunction/companies.py" />
         <option value="$PROJECT_DIR$/valueCrawler/views.py" />
+        <option value="$PROJECT_DIR$/valueAnalysis/urls.py" />
+        <option value="$PROJECT_DIR$/tweetSentiment/worker/redis.py" />
+        <option value="$PROJECT_DIR$/tweetSentiment/worker/rds.py" />
+        <option value="$PROJECT_DIR$/tweetSentiment/views.py" />
+        <option value="$PROJECT_DIR$/tweetSentiment/models.py" />
+        <option value="$PROJECT_DIR$/valueAnalysis/settings.py" />
+        <option value="$PROJECT_DIR$/tweetSentiment/tweetApi/tweetGet.py" />
+        <option value="$PROJECT_DIR$/tweetSentiment/views/publicAuthViews.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="23" />
-    <option name="width" value="1420" />
-    <option name="height" value="797" />
+    <option name="y" value="22" />
+    <option name="width" value="1280" />
+    <option name="height" value="705" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -162,14 +217,6 @@
               <option name="myItemId" value="valueAnalysis" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Python 2.7.10 (/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python) &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -177,7 +224,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="valueAnalysis" />
+              <option name="myItemId" value="companymatrix" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -187,7 +234,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="valueAnalysis" />
+              <option name="myItemId" value="companymatrix" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -201,7 +248,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="valueAnalysis" />
+              <option name="myItemId" value="companymatrix" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -219,7 +266,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="valueAnalysis" />
+              <option name="myItemId" value="companymatrix" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -233,11 +280,93 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="companymatrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tweetSentiment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="valueAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="companymatrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tweetSentiment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="worker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="valueAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="companymatrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tweetSentiment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="valueAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="companymatrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tweetSentiment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tweetApi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="valueAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="companymatrix" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="valueAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="companymatrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -247,9 +376,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -259,7 +394,33 @@
       <PyConsoleSettings />
     </option>
   </component>
-  <component name="RunManager" selected="Django server.valueAnalysis">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tweetSentiment" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tweetSentiment/views" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.tweetGet">
+    <configuration default="false" name="tweetGet" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tweetSentiment/tweetApi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="valueAnalysis" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tweetSentiment/tweetApi/tweetGet.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -273,27 +434,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <module name="valueAnalysis" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
@@ -315,6 +455,27 @@
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <module name="valueAnalysis" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -361,11 +522,35 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Django server.valueAnalysis" />
+      <item index="1" class="java.lang.String" itemvalue="Python.tweetGet" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.tweetGet" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4f1e7847-a8f7-451f-aef7-440a633b0082" name="Default" comment="" />
@@ -375,23 +560,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="23" width="1420" height="797" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="705" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2532751" sideWeight="0.6706056" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293944" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26661265" sideWeight="0.6712095" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293944" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -451,129 +636,139 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/valueCrawler/crawlFunction/companies.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/valueCrawler/crawlFunction/companies.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="16" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Library/Python/2.7/site-packages/django/db/models/fields/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="56" selection-start="5045" selection-end="5045" vertical-scroll-proportion="0.3325062">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/valueCrawler/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharm20/python_stubs/596071422/__builtin__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="836" column="56" selection-start="26690" selection-end="26697" vertical-scroll-proportion="-8.124069">
+        <state line="649" column="6" selection-start="20002" selection-end="20002" vertical-scroll-proportion="-0.22761194">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/django/views/generic/base.py">
+    <entry file="file://$PROJECT_DIR$/tweetSentiment/worker/rds.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="8" selection-start="1373" selection-end="1373" vertical-scroll-proportion="0.3325062">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/formCompanies.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/django/db/models/query.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="372" column="8" selection-start="13208" selection-end="13208" vertical-scroll-proportion="0.3325062">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/valueCrawler/crawlFunction/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="4" selection-start="74" selection-end="74" vertical-scroll-proportion="-0.14888337">
+        <state line="15" column="26" selection-start="432" selection-end="438" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#21#48#0" expanded="true" />
+            <element signature="e#21#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fullCompanies.txt">
+    <entry file="file://$PROJECT_DIR$/valueCrawler/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1250" column="36" selection-start="127557" selection-end="127557" vertical-scroll-proportion="9.746154">
+        <state line="11" column="59" selection-start="348" selection-end="348" vertical-scroll-proportion="0.25186568">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tweetSentiment/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="11" selection-start="708" selection-end="715" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/valueAnalysis/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="45" selection-start="2384" selection-end="2384" vertical-scroll-proportion="-5.1153846">
+        <state line="79" column="17" selection-start="2502" selection-end="2514" vertical-scroll-proportion="-6.5384617">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/valueCrawler/models.py">
+    <entry file="file:///Library/Python/2.7/site-packages/django/views/generic/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="47" selection-start="844" selection-end="844" vertical-scroll-proportion="0.0">
+        <state line="7" column="0" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#70#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/secTest.html">
+    <entry file="file:///Library/Python/2.7/site-packages/django/views/generic/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="28" selection-start="154" selection-end="154" vertical-scroll-proportion="-3.4285715">
+        <state line="156" column="8" selection-start="5584" selection-end="5584" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/valueAnalysis/urls.py">
+    <entry file="file://$PROJECT_DIR$/tweetSentiment/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="34" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#702#743#0" expanded="true" />
-          </folding>
+        <state line="8" column="1" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/valueCrawler/urls.py">
+    <entry file="file://$PROJECT_DIR$/tweetSentiment/tweetApi/tweetGet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="1" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
+        <state line="20" column="28" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#21#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file:///Library/Python/2.7/site-packages/django/shortcuts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="160" column="7" selection-start="6214" selection-end="6214" vertical-scroll-proportion="0.54">
+        <state line="13" column="25" selection-start="415" selection-end="427" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/valueCrawler/views.py">
+    <entry file="file:///Library/Python/2.7/site-packages/django/http/response.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="87" selection-start="869" selection-end="869" vertical-scroll-proportion="0.0">
+        <state line="492" column="27" selection-start="16880" selection-end="16901" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1548" column="4" selection-start="54967" selection-end="54967" vertical-scroll-proportion="0.33208954">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/valueCrawler/crawlFunction/companies.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="46" selection-start="1044" selection-end="1044" vertical-scroll-proportion="-1.1210654">
+        <state line="17" column="77" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/valueCrawler/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="44" selection-start="138" selection-end="153" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tweetSentiment/views/publicAuthViews.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="44" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#21#51#0" expanded="true" />
+            <element signature="e#21#58#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tweetSentiment/views/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="34" selection-start="185" selection-end="185" vertical-scroll-proportion="0.19589552">
+          <folding />
         </state>
       </provider>
     </entry>

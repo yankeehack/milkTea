@@ -71,6 +71,14 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'valueAnalysis.wsgi.application'
 
+TWEETER_SETTINGS = {
+    'APP_NAME': 'companyMatrix',
+    'APP_KEY': 'qroTNSqWT4uSmeuxlF81hbDLq',
+    'APP_SECRET': 'td73cuIID3YGQwfnt4nJXLY8ejHnXoslnIUnM09s0ufGSDTseD',
+    'ACCESS_TOKEN': '357251202-HYqttWo0PQkmw1rSI4WFQy1ZDE7AeoPzbeiaL3O8',
+    'ACCESS_SECRET': 'XZ6rZwqtQGcvkDD10fepg49CxFSUi4Xlzq4PdkW8C0heh',
+    'CALLBACK_URL': ''
+}
 
 # Database
 # https://docs.djangoproject.com/en/1.9/ref/settings/#databases
@@ -82,6 +90,12 @@ DATABASES = {
     }
 }
 
+
+REDIS = {
+    'host': '',
+    'port': '',
+    'db': ''
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/1.9/ref/settings/#auth-password-validators
