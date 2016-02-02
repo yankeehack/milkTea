@@ -18,7 +18,7 @@ from django.conf.urls import include, url
 from django.contrib import admin
 
 urlpatterns = [
+    url(r'^tweetSentiment/', include('tweetSentiment.urls')),
     url(r'^sec/', include('valueCrawler.urls')),
-    url(r'^sec/', include('tweetSentiment.urls')),
     url(r'^admin/', admin.site.urls),
 ]

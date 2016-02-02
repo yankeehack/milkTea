@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'valueCrawler'
+    'valueCrawler',
+    'tweetSentiment'
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -89,7 +90,6 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR + '/db/', 'db.sqlite3'),
     }
 }
-
 
 REDIS = {
     'host': '',
