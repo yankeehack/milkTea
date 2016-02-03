@@ -669,3 +669,125 @@ Traceback (most recent call last):
   File "/Library/Python/2.7/site-packages/django/template/response.py", line 178, in content
     raise ContentNotRenderedError('The response content must be '
 ContentNotRenderedError: The response content must be rendered before it can be accessed.
+Not Found: /valueAnalysis/static/lib/css/keen-dashboards.css
+Not Found: /valueAnalysis/static/lib/css/bootstrap.min.css
+Not Found: /valueAnalysis/static/lib/js/bootstrap.min.js
+Not Found: /valueAnalysis/static/lib/css/dc.css
+Not Found: /valueAnalysis/static/css/custom.css
+Not Found: /valueAnalysis/static/lib/js/jquery.min.js
+Not Found: /valueAnalysis/static/lib/js/crossfilter.js
+Not Found: /valueAnalysis/static/lib/js/d3.js
+Not Found: /valueAnalysis/static/lib/js/dc.js
+Not Found: /valueAnalysis/static/lib/js/queue.js
+Not Found: /valueAnalysis/static/lib/js/keen.min.js
+Not Found: /valueAnalysis/static/js/graphs.js
+Not Found: /valueAnalysis/static/lib/css/bootstrap.min.css
+Not Found: /valueAnalysis/static/lib/css/keen-dashboards.css
+Not Found: /valueAnalysis/static/lib/css/dc.css
+Not Found: /valueAnalysis/static/lib/js/jquery.min.js
+Not Found: /valueAnalysis/static/css/custom.css
+Not Found: /valueAnalysis/static/lib/js/bootstrap.min.js
+Not Found: /valueAnalysis/static/lib/js/crossfilter.js
+Not Found: /valueAnalysis/static/lib/js/d3.js
+Not Found: /valueAnalysis/static/lib/js/dc.js
+Not Found: /valueAnalysis/static/lib/js/queue.js
+Not Found: /valueAnalysis/static/lib/js/keen.min.js
+Not Found: /valueAnalysis/static/js/graphs.js
+Not Found: /Users/yazhu/workspace/companymatrix/static/lib/js/jquery.min.js
+Not Found: /valueAnalysis/static/lib/css/keen-dashboards.css
+Not Found: /valueAnalysis/static/lib/css/bootstrap.min.css
+Not Found: /valueAnalysis/static/lib/css/dc.css
+Not Found: /valueAnalysis/static/lib/js/bootstrap.min.js
+Not Found: /valueAnalysis/static/css/custom.css
+Not Found: /valueAnalysis/static/lib/js/crossfilter.js
+Not Found: /valueAnalysis/static/lib/js/d3.js
+Not Found: /valueAnalysis/static/lib/js/dc.js
+Not Found: /valueAnalysis/static/lib/js/queue.js
+Not Found: /valueAnalysis/static/lib/js/keen.min.js
+Not Found: /valueAnalysis/static/js/graphs.js
+Not Found: /valueAnalysis/static/lib/css/bootstrap.min.css
+Not Found: /valueAnalysis/static/lib/css/keen-dashboards.css
+Not Found: /valueAnalysis/static/lib/css/dc.css
+Not Found: /valueAnalysis/static/css/custom.css
+Not Found: /valueAnalysis/static/lib/js/bootstrap.min.js
+Not Found: /valueAnalysis/static/lib/js/crossfilter.js
+Not Found: /valueAnalysis/static/lib/js/d3.js
+Not Found: /valueAnalysis/static/lib/js/dc.js
+Not Found: /valueAnalysis/static/lib/js/queue.js
+Not Found: /valueAnalysis/static/lib/js/keen.min.js
+Not Found: /valueAnalysis/static/js/graphs.js
+Not Found: /donorschoose/projects
+Not Found: /donorschoose/projects
+Not Found: /donorschoose/projects
+Not Found: /donorschoose/projects
+Not Found: /donorschoose/projects
+Not Found: /tweetSentiment/donorschoose/projects
+Internal Server Error: /tweetSentiment/donorschoose/projects/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/views/generic/detail.py", line 117, in get
+    self.object = self.get_object()
+  File "/Library/Python/2.7/site-packages/django/views/generic/detail.py", line 32, in get_object
+    queryset = self.get_queryset()
+  File "/Library/Python/2.7/site-packages/django/views/generic/detail.py", line 74, in get_queryset
+    'cls': self.__class__.__name__
+ImproperlyConfigured: projectsJsonView is missing a QuerySet. Define projectsJsonView.model, projectsJsonView.queryset, or override projectsJsonView.get_queryset().
+Internal Server Error: /tweetSentiment/donorschoose/projects/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/views/generic/base.py", line 157, in get
+    context = self.get_context_data(**kwargs)
+  File "/Users/yazhu/workspace/companymatrix/tweetSentiment/views/dashBoardViews.py", line 15, in get_context_data
+    collections = mongoBaseProjectsCollections()
+  File "/Users/yazhu/workspace/companymatrix/tweetSentiment/mongoDB/MongoDBProjectsCollections.py", line 10, in __init__
+    super(mongoBaseProjectsCollections, self).__init__()
+  File "/Users/yazhu/workspace/companymatrix/tweetSentiment/mongoDB/mongoDBBase.py", line 12, in __init__
+    super(object, self).__init__()
+TypeError: super() takes at least 1 argument (0 given)
+Internal Server Error: /tweetSentiment/donorschoose/projects/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/views/generic/base.py", line 157, in get
+    context = self.get_context_data(**kwargs)
+  File "/Users/yazhu/workspace/companymatrix/tweetSentiment/views/dashBoardViews.py", line 18, in get_context_data
+    for project in projects:
+TypeError: 'NoneType' object is not iterable
+Internal Server Error: /tweetSentiment/donorschoose/projects/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/views/generic/base.py", line 157, in get
+    context = self.get_context_data(**kwargs)
+  File "/Users/yazhu/workspace/companymatrix/tweetSentiment/views/dashBoardViews.py", line 18, in get_context_data
+    for project in projects:
+TypeError: 'NoneType' object is not iterable
+Not Found: /donorschoose/projects
+Not Found: /donorschoose/projects
+Not Found: /xxxxx/projects

@@ -91,6 +91,14 @@ DATABASES = {
     }
 }
 
+MONGODB = {
+    'MONGODB_HOST': 'localhost',
+    'MONGODB_PORT': 27017,
+    'DB_NAME': 'donorschoose',
+    'COLLECTION_NAME': 'projects',
+    'DEFAULT_FIELDS': {'school_state': True, 'resource_type': True, 'poverty_level': True, 'date_posted': True, 'total_donations': True, '_id': False}
+}
+
 REDIS = {
     'host': '',
     'port': '',
@@ -158,3 +166,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, "static"),
+)
