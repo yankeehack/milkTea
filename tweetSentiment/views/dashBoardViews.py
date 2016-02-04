@@ -3,7 +3,8 @@ from django import http
 from django.views.generic import TemplateView
 from tweetSentiment.mongoDB.MongoDBProjectsCollections import mongoBaseProjectsCollections
 import json
-
+from bson import json_util
+from bson.json_util import dumps
 
 class mainView(TemplateView):
     template_name = 'dashboard.html'
@@ -36,4 +37,4 @@ class projectsJsonView(TemplateView):
         # to do much more complex handling to ensure that arbitrary
         # objects -- such as Django model instances or querysets
         # -- can be serialized as JSON.
-        return json.dumps(context)
+        return json.dumps(context, default=json_util.default)

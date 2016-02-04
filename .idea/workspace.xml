@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f1e7847-a8f7-451f-aef7-440a633b0082" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tweetSentiment/mongoDB/MongoDBProjectsCollections.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tweetSentiment/mongoDB/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tweetSentiment/views/dashBoardViews.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tweetSentiment/mongoDB/mongoDBBase.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tweetSentiment/views/dashBoardViews.py" afterPath="$PROJECT_DIR$/tweetSentiment/views/dashBoardViews.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/debug.log" afterPath="$PROJECT_DIR$/debug.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/valueAnalysis/settings.py" afterPath="$PROJECT_DIR$/valueAnalysis/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tweetSentiment/urls.py" afterPath="$PROJECT_DIR$/tweetSentiment/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/valueAnalysis/urls.py" afterPath="$PROJECT_DIR$/valueAnalysis/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/graphs.js" afterPath="$PROJECT_DIR$/static/js/graphs.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="valueAnalysis.iws" />
@@ -29,13 +24,13 @@
     <file path="$PROJECT_DIR$/../testPython/test.py" changelist="4f1e7847-a8f7-451f-aef7-440a633b0082" time="1454139654061" ignored="false" />
     <file path="/test.py" changelist="4f1e7847-a8f7-451f-aef7-440a633b0082" time="1454139648890" ignored="false" />
     <file path="/tweetGet.py" changelist="4f1e7847-a8f7-451f-aef7-440a633b0082" time="1454192071706" ignored="false" />
-    <file path="/a.dummy" changelist="4f1e7847-a8f7-451f-aef7-440a633b0082" time="1454542548201" ignored="false" />
+    <file path="/a.dummy" changelist="4f1e7847-a8f7-451f-aef7-440a633b0082" time="1454562350464" ignored="false" />
     <file path="/publicAuthViews.py" changelist="4f1e7847-a8f7-451f-aef7-440a633b0082" time="1454192750070" ignored="false" />
     <file path="/twitterDisplay.html" changelist="4f1e7847-a8f7-451f-aef7-440a633b0082" time="1454390832671" ignored="false" />
     <file path="/Library/Python/2.7/site-packages/django/utils/autoreload.py" changelist="4f1e7847-a8f7-451f-aef7-440a633b0082" time="1454534939896" ignored="false" />
     <file path="/mongoDB.py" changelist="4f1e7847-a8f7-451f-aef7-440a633b0082" time="1454535812771" ignored="false" />
     <file path="/MongoDBProjectsCollections.py" changelist="4f1e7847-a8f7-451f-aef7-440a633b0082" time="1454542073473" ignored="false" />
-    <file path="/dashBoardViews.py" changelist="4f1e7847-a8f7-451f-aef7-440a633b0082" time="1454537861109" ignored="false" />
+    <file path="/dashBoardViews.py" changelist="4f1e7847-a8f7-451f-aef7-440a633b0082" time="1454572735020" ignored="false" />
     <file path="/dashboard.html" changelist="4f1e7847-a8f7-451f-aef7-440a633b0082" time="1454540329656" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,17 +48,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mongoDBBase.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tweetSentiment/mongoDB/mongoDBBase.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#21#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MongoDBProjectsCollections.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tweetSentiment/mongoDB/MongoDBProjectsCollections.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -75,10 +59,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashBoardViews.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="dashBoardViews.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tweetSentiment/views/dashBoardViews.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0">
+            <state line="19" column="12" selection-start="621" selection-end="621" vertical-scroll-proportion="0.52478135">
               <folding>
                 <element signature="e#21#44#0" expanded="true" />
               </folding>
@@ -97,28 +81,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="graphs.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="graphs.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/js/graphs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="49" selection-start="45" selection-end="57" vertical-scroll-proportion="0.049342107">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dashboard.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/dashboard.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="120" column="49" selection-start="3195" selection-end="3195" vertical-scroll-proportion="-5.1666665">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="keen.min.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/lib/js/keen.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="22" selection-start="32865" selection-end="32865" vertical-scroll-proportion="0.0">
+            <state line="9" column="61" selection-start="332" selection-end="332" vertical-scroll-proportion="-5.1923075">
               <folding />
             </state>
           </provider>
@@ -127,19 +93,26 @@
       <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/valueAnalysis/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="167" column="23" selection-start="4584" selection-end="4584" vertical-scroll-proportion="0.0">
+            <state line="153" column="23" selection-start="4388" selection-end="4388" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/valueAnalysis/urls.py">
+      <file leaf-file-name="d3.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/lib/js/d3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="32" selection-start="852" selection-end="852" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#702#743#0" expanded="true" />
-              </folding>
+            <state line="1900" column="13" selection-start="65224" selection-end="65224" vertical-scroll-proportion="-3.3076923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/dashboard.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="33" selection-start="483" selection-end="483" vertical-scroll-proportion="-9.375">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -162,8 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/tweetSentiment/views.py" />
-        <option value="$PROJECT_DIR$/tweetSentiment/models.py" />
         <option value="$PROJECT_DIR$/tweetSentiment/tweetApi/tweetGet.py" />
         <option value="$PROJECT_DIR$/tweetSentiment/views/publicAuthViews.py" />
         <option value="$PROJECT_DIR$/templates/twitterDisplay.html" />
@@ -173,11 +144,13 @@
         <option value="$PROJECT_DIR$/tweetSentiment/urls.py" />
         <option value="$PROJECT_DIR$/templates/dashboard.html" />
         <option value="$PROJECT_DIR$/valueAnalysis/urls.py" />
-        <option value="$PROJECT_DIR$/valueAnalysis/settings.py" />
-        <option value="$PROJECT_DIR$/tweetSentiment/views/dashBoardViews.py" />
         <option value="$PROJECT_DIR$/tweetSentiment/mongoDB/mongoDBBase.py" />
         <option value="$PROJECT_DIR$/tweetSentiment/mongoDB/MongoDBProjectsCollections.py" />
+        <option value="$PROJECT_DIR$/static/lib/js/keen.min.js" />
+        <option value="$PROJECT_DIR$/valueAnalysis/settings.py" />
+        <option value="$PROJECT_DIR$/debug.log" />
         <option value="$PROJECT_DIR$/static/js/graphs.js" />
+        <option value="$PROJECT_DIR$/tweetSentiment/views/dashBoardViews.py" />
       </list>
     </option>
   </component>
@@ -326,11 +299,57 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="tweetSentiment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="valueAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="companymatrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="valueAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="companymatrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="valueAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="companymatrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -352,29 +371,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="valueAnalysis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="companymatrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="geojson" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -416,6 +413,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../oj_fun" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
@@ -458,6 +456,15 @@
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="dashboard.html" type="JavascriptDebugSession" factoryName="Local" singleton="true" temporary="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" value="file://$PROJECT_DIR$/templates/dashboard.html" />
+      </JSDebuggerConfigurationSettings>
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -535,6 +542,13 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <configuration default="false" name="valueAnalysis" type="Python.DjangoServer" factoryName="Django server">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -561,13 +575,15 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Django server.valueAnalysis" />
       <item index="1" class="java.lang.String" itemvalue="Python.tweetGet" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.dashboard.html" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.tweetGet" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.dashboard.html" />
+        <item index="1" class="java.lang.String" itemvalue="Python.tweetGet" />
       </list>
     </recent_temporary>
   </component>
@@ -598,21 +614,41 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="705" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26661265" sideWeight="0.6712095" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -687,87 +723,61 @@
           <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="19" />
+      <option name="time" value="22" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Library/Python/2.7/site-packages/django/views/generic/detail.py">
+    <entry file="file://$PROJECT_DIR$/static/lib/js/keen.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="6" selection-start="297" selection-end="297" vertical-scroll-proportion="0.069970846">
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tweetSentiment/views/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="18" selection-start="63" selection-end="109" vertical-scroll-proportion="0.0">
+        <state line="1" column="71" selection-start="32914" selection-end="32914" vertical-scroll-proportion="0.045454547">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tweetSentiment/tweetApi/tweetGet.py">
+    <entry file="file://$PROJECT_DIR$/tweetSentiment/views/publicAuthViews.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="31" selection-start="93" selection-end="126" vertical-scroll-proportion="0.0">
+        <state line="15" column="0" selection-start="502" selection-end="502" vertical-scroll-proportion="0.5685131">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/django/conf/urls/static.py">
+    <entry file="file://$PROJECT_DIR$/debug.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="4" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
+        <state line="806" column="43" selection-start="55159" selection-end="55159" vertical-scroll-proportion="3.909091">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/django/views/generic/base.py">
+    <entry file="file://$PROJECT_DIR$/static/lib/js/crossfilter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="151" column="7" selection-start="5411" selection-end="5411" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tweetSentiment/mongoDB/mongoDBBase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#21#48#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/valueAnalysis/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="32" selection-start="852" selection-end="852" vertical-scroll-proportion="0.0">
+        <state line="21" column="15" selection-start="869" selection-end="869" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#702#743#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/valueAnalysis/settings.py">
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="167" column="23" selection-start="4584" selection-end="4584" vertical-scroll-proportion="0.0">
+        <state line="192" column="4" selection-start="6967" selection-end="6967" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1404232215000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1404232215000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="33" selection-start="483" selection-end="483" vertical-scroll-proportion="-9.375">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tweetSentiment/views/dashBoardViews.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#21#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tweetSentiment/mongoDB/MongoDBProjectsCollections.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="43" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#21#54#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -780,40 +790,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/dashboard.html">
+    <entry file="file://$PROJECT_DIR$/tweetSentiment/mongoDB/mongoDBBase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="49" selection-start="3195" selection-end="3195" vertical-scroll-proportion="-5.1666665">
-          <folding />
+        <state line="14" column="0" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#21#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/lib/js/jquery.min.js">
+    <entry file="file://$PROJECT_DIR$/static/lib/js/dc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="147" column="3" selection-start="4654" selection-end="4654" vertical-scroll-proportion="5.9545455">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/lib/js/queue.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.760933">
+        <state line="14" column="44" selection-start="488" selection-end="496" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/lib/js/keen.min.js">
+    <entry file="file://$PROJECT_DIR$/static/lib/js/d3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="22" selection-start="32865" selection-end="32865" vertical-scroll-proportion="0.0">
+        <state line="1900" column="13" selection-start="65224" selection-end="65224" vertical-scroll-proportion="-3.3076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/geojson/us-states.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="28" selection-start="30856" selection-end="30856" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/valueAnalysis/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="153" column="23" selection-start="4388" selection-end="4388" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/graphs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="49" selection-start="45" selection-end="57" vertical-scroll-proportion="0.049342107">
+        <state line="9" column="61" selection-start="332" selection-end="332" vertical-scroll-proportion="-5.1923075">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tweetSentiment/views/dashBoardViews.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="12" selection-start="621" selection-end="621" vertical-scroll-proportion="0.52478135">
+          <folding>
+            <element signature="e#21#44#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
