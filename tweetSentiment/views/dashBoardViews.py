@@ -4,7 +4,7 @@ from django.views.generic import TemplateView
 from tweetSentiment.mongoDB.MongoDBProjectsCollections import mongoBaseProjectsCollections
 import json
 from bson import json_util
-from bson.json_util import dumps
+
 
 class mainView(TemplateView):
     template_name = 'dashboard.html'
@@ -21,7 +21,7 @@ class projectsJsonView(TemplateView):
         collections.closeConnection()
         return dict_projects
 
-    def render_to_response(self, context):
+    def render_to_response(self, context, **response_kwargs):
         "Returns a JSON response containing 'context' as payload"
         return self.get_json_response(self.convert_context_to_json(context))
 
